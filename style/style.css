@@ -33,3 +33,36 @@ header nav a{
 	text-decoration: none;
 }
 
+.filme-principal {
+	color: #fff;
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/hackeman.jpg);
+	background-size: cover;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	font-style: oblique;
+}
+.filme-principal h3{
+	font-size: 40px;
+	font-style: normal;
+	margin: 0 0 4% 0;
+}
+
+.filme-wrapper{
+	min-width: 30vw;
+	max-width: 80vw;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.btn-container .btn{
+	margin: 1rem 0.5rem 0 0;
+	padding: 1rem;
+	color: #fff;
+	font-weight: bold;
+	background-color: rgba(0,0,0,.50);
+	border: none;
+}
+
